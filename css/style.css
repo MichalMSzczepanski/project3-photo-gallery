@@ -1,0 +1,103 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+
+/*global*/
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+
+/*header*/
+
+header{
+  background-image: url(../images/13.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+}
+
+/*showcase*/
+
+.showcase{
+  height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.searchbar{
+  border: red solid 2px;
+  grid-column: 2/3;
+  justify-self: center;
+  align-self: center;
+}
+
+.menu{
+  border: purple solid 2px;
+  grid-column: 3/4;
+  justify-self: right;
+}
+
+/*break*/
+
+.break{
+  height: 25px;
+  background-color: #f4f4f4;
+}
+
+/*gallery*/
+
+.gallery{
+  max-width: 1600px;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  border: orange solid 2px;
+  padding: 10px;
+}
+
+.column{
+  max-width: 25%;
+  flex: 25%;
+}
+
+.column img{
+  border: solid red 3px;
+  padding:3px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 1400px) {
+  .column {
+    flex: 25%;
+    max-width: 25%;
+  }
+
+@media screen and (max-width: 1200px) {
+  .column {
+    flex: 33%;
+    max-width: 33%;
+}
+
+@media screen and (max-width: 1000px) {
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
