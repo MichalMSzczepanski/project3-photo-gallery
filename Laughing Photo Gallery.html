@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Laughing Photo Gallery</title>
+    <meta name="description" content="it&#39;s all for laughs">
+    <meta name="keywords" content="smiles, laughter, hugs">
+    <meta name="viewport" content="width=device-width, initai-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    
+  <link rel="stylesheet" type="text/css" href="./Laughing Photo Gallery_files/style.css"><link rel="preconnect" href="https://fonts.gstatic.com/"><link href="./Laughing Photo Gallery_files/css2" rel="stylesheet"></head>
+
+  <body>
+
+    <header>
+      <div class="showcase">
+
+        <div class="searchbar">
+          <h1>Laugh on</h1>
+
+          <form action="http://127.0.0.1:3000/action_page.php">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit">Submit</button>
+          </form>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="http://127.0.0.1:3000/#home">home</a></li>
+            <li><a href="http://127.0.0.1:3000/#shop">shop</a></li>
+            <li><a href="http://127.0.0.1:3000/#artists">artists</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </header>
+
+    <div class="break"></div>
+
+
+      <div class="image-container">
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource" alt="ford">
+            </div>
+            <div class="text">ford</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(1)" alt="toyota">
+            </div>
+            <div class="text">toyota</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(2)" alt="acura">
+            </div>
+            <div class="text">acura</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(3)" alt="buick">
+            </div>
+            <div class="text">buick</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(4)" alt="bentley">
+            </div>
+            <div class="text">bentley</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(5)" alt="cadillac">
+            </div>
+            <div class="text">cadillac</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(6)" alt="honda">
+            </div>
+            <div class="text">honda</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(7)" alt="lexus">
+            </div>
+            <div class="text">lexus</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(8)" alt="lotus">
+            </div>
+            <div class="text">lotus</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(9)" alt="lincoln">
+            </div>
+            <div class="text">lincoln</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(10)" alt="mazda">
+            </div>
+            <div class="text">mazda</div>
+          </div>
+        </div>
+
+        <div class="gallery-container">
+          <div class="gallery-image">
+            <div class="image">
+              <img src="./Laughing Photo Gallery_files/saved_resource(11)" alt="pontiac">
+            </div>
+            <div class="text">pontiac</div>
+          </div>
+        </div>
+
+    </div>
+
+    <footer class="container">
+      <p>footer</p>
+    </footer>
+
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+
+
+</body></html>
